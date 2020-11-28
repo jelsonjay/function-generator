@@ -21,7 +21,7 @@ function* fruts(){
   yield 'Jackfruit';
   yield 'Java-Plum';
 }
-
+console.log('----------Frut List-----------')
 const myFrut = fruts()
 console.log(myFrut.next())
 console.log(myFrut.next())
@@ -43,7 +43,40 @@ console.log(myFrut.next())
 console.log(myFrut.next())
 console.log(myFrut.next())
 
+console.log('----------Count-----------')
 
 //for(let myFrut of fruts()){
   //console.log(myFrut)
 //}
+
+function* count(numbers){
+  let c = 0
+  while (c < numbers) {
+    yield console.log(c)
+    c++
+    
+  }
+}
+
+const countNumber = count (20)
+
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
+console.log(countNumber.next())
