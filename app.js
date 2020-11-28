@@ -21,6 +21,29 @@ function* fruts(){
   yield 'Jackfruit';
   yield 'Java-Plum';
 }
-for(let myFrut of fruts()){
-  console.log(myFrut)
-}
+
+const myFrut = fruts()
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+console.log(myFrut.next())
+
+
+//for(let myFrut of fruts()){
+  //console.log(myFrut)
+//}
