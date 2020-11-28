@@ -19,8 +19,8 @@ function* fruts(){
   yield 'Guava';
   yield 'Honeydew Melon';
   yield 'Jackfruit';
-  yield 'Java-Plum'
+  yield 'Java-Plum';
 }
-for(let myColors of color()){
-  console.log(myColors)
+for(let myFrut of fruts()){
+  console.log(myFrut)
 }
