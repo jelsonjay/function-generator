@@ -1,2 +1,2 @@
 # Javascript function-generator
- the new function generator, declaration keyword followed by an asterisk es6
+ the new function generator, declaration keyword followed by an asterisk using es6
